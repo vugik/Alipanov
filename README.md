@@ -25,20 +25,20 @@
 
      sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo
 
-![image](https://github.com/vugik/Alipanov/blob/main/10.png)
+![image](https://github.com/vugik/Alipanov/blob/main/11.png)
 
 
 Устанавливаем docker
 
      sudo yum install docker-ce docker-ce-cli containerd.io
 
-![image](https://github.com/vugik/Alipanov/blob/main/11.png)
+![image](https://github.com/vugik/Alipanov/blob/main/10.png)
 
 Запускаем его и разрешаем автозапуск
 
      sudo systemctl enable docker --now
 
-![image](https://github.com/vugik/Alipanov/blob/main/10.png)
+![image](https://github.com/vugik/Alipanov/blob/main/12.png)
 
 
 
@@ -61,7 +61,7 @@
 
      sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose
 
-![image](https://github.com/vugik/Alipanov/blob/main/8.png)
+![image](https://github.com/vugik/Alipanov/blob/main/7.png)
 
 
 
@@ -73,7 +73,7 @@
 
      sudo docker-compose --version
 
-![image](https://github.com/user-attachments/assets/0aabdff0-918a-4eb5-9949-af97e8f15390)
+![image](https://github.com/vugik/Alipanov/blob/main/8.png)
 
 
 # Делаем grafana
@@ -82,7 +82,7 @@
 
      sudo yum install git
 
-![image](https://github.com/user-attachments/assets/eba26674-0dfe-4c2d-82b6-c789950ffe03)
+![image](https://github.com/vugik/Alipanov/blob/main/6.png)
 
 
 
@@ -90,7 +90,7 @@
 
      sudo git clone https://github.com/skl256/grafana_stack_for_docker.git
 
-![image](https://github.com/user-attachments/assets/0a6b8008-4b54-4b27-a3ef-754b24e57959)
+![image](https://github.com/vugik/Alipanov/blob/main/5.png)
 
 
 
@@ -125,7 +125,7 @@ Cоздаем папки двумя разными способами
 
      sudo mv grafana.yaml docker-compose.yaml
 
-![image](https://github.com/vugik/Alipanov/blob/main/10.png)
+![image](https://github.com/vugik/Alipanov/blob/main/4.png)
 
 
 Собрать докер (нужно запускать из папки где docker-compose.yaml)
@@ -134,7 +134,7 @@ Cоздаем папки двумя разными способами
 
 Опустить докер - sudo docker compose stop
 
-![image](https://github.com/vugik/Alipanov/blob/main/9.png)
+![image](https://github.com/vugik/Alipanov/blob/main/3.png)
 
 
 
@@ -163,7 +163,7 @@ Cоздаем папки двумя разными способами
 
      sudo vi prometheus.yaml
 
-![image](https://github.com/vugik/Alipanov/blob/main/7.png)
+![image](https://github.com/vugik/Alipanov/blob/main/2.png)
 
 
 
@@ -248,7 +248,7 @@ Cоздаем папки двумя разными способами
 
 • команда выводит информацию о типе и значении этой метрики в формате, который может быть использован системой мониторинга Prometheus.
 
-![image](https://github.com/vugik/Alipanov/blob/main/3.png)
+![image](https://github.com/vugik/Alipanov/blob/main)
 
 Значение 0 меняем на любое другое
 
@@ -256,7 +256,7 @@ Cоздаем папки двумя разными способами
 
 Нажимаем run
 
-![image](https://github.com/vugik/Alipanov/blob/main/2.png)
+![image](https://github.com/vugik/Alipanov/blob/main/222.png)
 
 
 Копируем переменную OILCOINT_metric1 и вставляем в code
