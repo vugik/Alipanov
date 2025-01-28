@@ -149,7 +149,7 @@ Cоздаем папки двумя разными способами
 
 Затем в docker-compose нужно вставить node-exporter и удалить ненужные файлы (но у нас уже вставлен готовый докер)
 
-![image](https://github.com/vugik/Alipanov/blob/main/1.png8)
+![image](https://github.com/vugik/Alipanov/blob/main/photo_5244857708342011395_x.jpg)
 
 выйти не сохраняясь из vim - esc -> :q!
 
@@ -169,7 +169,7 @@ Cоздаем папки двумя разными способами
 
 Далее нужно исправить targets: на exporter:9100
 
-![image](https://github.com/vugik/Alipanov/blob/main/6.png)
+![image](https://github.com/vugik/Alipanov/blob/main/photo_5244857708342011393_x.jpg)
 
 
 # Делаем grafana на сайте
@@ -212,8 +212,7 @@ Cоздаем папки двумя разными способами
 
 
 
-![image](https://github.com/vugik/Alipanov/blob/main/5.png)
-
+![image](https://github.com/vugik/Alipanov/blob/main/photo_5244857708342011392_x.jpg)
 
 
 
@@ -230,7 +229,7 @@ Cоздаем папки двумя разными способами
 
 После prometheus вставляем vmagent (но у нас уже вставлен готовый докер)
 
-![image](https://github.com/vugik/Alipanov/blob/main/4.png)
+![image](https://github.com/vugik/Alipanov/blob/main/photo_5244857708342011391_x.jpg)
 
 
 
@@ -248,7 +247,7 @@ Cоздаем папки двумя разными способами
 
 • команда выводит информацию о типе и значении этой метрики в формате, который может быть использован системой мониторинга Prometheus.
 
-![image](https://github.com/vugik/Alipanov/blob/main)
+![image]()
 
 Значение 0 меняем на любое другое
 
@@ -256,7 +255,7 @@ Cоздаем папки двумя разными способами
 
 Нажимаем run
 
-![image](https://github.com/vugik/Alipanov/blob/main/222.png)
+![image](https://github.com/vugik/Alipanov/blob/main/22222.jpg)
 
 
 Копируем переменную OILCOINT_metric1 и вставляем в code
