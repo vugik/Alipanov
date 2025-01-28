@@ -25,20 +25,20 @@
 
      sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo
 
-![image](https://github.com/user-attachments/assets/be7a10f4-1e8a-4d21-a643-fcf2e7c66d69)
+![image](https://github.com/vugik/Alipanov/blob/main/12.png)
 
 
 Устанавливаем docker
 
      sudo yum install docker-ce docker-ce-cli containerd.io
 
-![image](https://github.com/user-attachments/assets/e27179c5-541a-441d-8788-ca82eeb0f43a)
+![image](https://github.com/vugik/Alipanov/blob/main/11.png)
 
 Запускаем его и разрешаем автозапуск
 
      sudo systemctl enable docker --now
 
-![image](https://github.com/user-attachments/assets/34ba26cc-bf26-4831-b155-545c72fc4ad6)
+![image](https://github.com/vugik/Alipanov/blob/main/10.png)
 
 
 
@@ -48,7 +48,7 @@
 
      sudo yum install curl
 
-![image](https://github.com/user-attachments/assets/ee80618c-89c1-41cb-ab4d-7c2a0e541c83)
+![image](https://github.com/vugik/Alipanov/blob/main/9.png)
 
 
 
@@ -61,7 +61,7 @@
 
      sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose
 
-![image](https://github.com/user-attachments/assets/8618ffda-def1-46e0-9aa6-b31210af5f16)
+![image](https://github.com/vugik/Alipanov/blob/main/8.png)
 
 
 
@@ -125,7 +125,7 @@ Cоздаем папки двумя разными способами
 
      sudo mv grafana.yaml docker-compose.yaml
 
-![image](https://github.com/user-attachments/assets/894d0467-5354-48b7-ad3b-553326f4815f)
+![image](https://github.com/vugik/Alipanov/blob/main/10.png)
 
 
 Собрать докер (нужно запускать из папки где docker-compose.yaml)
@@ -134,7 +134,7 @@ Cоздаем папки двумя разными способами
 
 Опустить докер - sudo docker compose stop
 
-![image](https://github.com/user-attachments/assets/bec1cf3c-484b-44b9-8da0-6bc8131aeac9)
+![image](https://github.com/vugik/Alipanov/blob/main/9.png)
 
 
 
@@ -149,7 +149,7 @@ Cоздаем папки двумя разными способами
 
 Затем в docker-compose нужно вставить node-exporter и удалить ненужные файлы (но у нас уже вставлен готовый докер)
 
-![image](https://github.com/user-attachments/assets/14df36d8-22eb-42ea-b544-b1269c0a0393)
+![image](https://github.com/vugik/Alipanov/blob/main/1.png8)
 
 выйти не сохраняясь из vim - esc -> :q!
 
@@ -163,13 +163,13 @@ Cоздаем папки двумя разными способами
 
      sudo vi prometheus.yaml
 
-![image](https://github.com/user-attachments/assets/df43bb29-972e-48ae-9224-6f8d222ebe0d)
+![image](https://github.com/vugik/Alipanov/blob/main/7.png)
 
 
 
 Далее нужно исправить targets: на exporter:9100
 
-![image](https://github.com/user-attachments/assets/d6dc7b39-175e-44e1-8fe3-e244cd85c825)
+![image](https://github.com/vugik/Alipanov/blob/main/6.png)
 
 
 # Делаем grafana на сайте
@@ -212,7 +212,7 @@ Cоздаем папки двумя разными способами
 
 
 
-![image](https://github.com/user-attachments/assets/0c2c1e9e-a2e9-484b-909c-03f10e7282f6)
+![image](https://github.com/vugik/Alipanov/blob/main/5.png)
 
 
 
@@ -230,7 +230,7 @@ Cоздаем папки двумя разными способами
 
 После prometheus вставляем vmagent (но у нас уже вставлен готовый докер)
 
-![image](https://github.com/user-attachments/assets/ad84d1c3-5449-4dc3-a8fd-e8ce10a098b2)
+![image](https://github.com/vugik/Alipanov/blob/main/4.png)
 
 
 
@@ -248,7 +248,7 @@ Cоздаем папки двумя разными способами
 
 • команда выводит информацию о типе и значении этой метрики в формате, который может быть использован системой мониторинга Prometheus.
 
-![image](https://github.com/user-attachments/assets/557aae50-2fcf-4334-be28-2c823d5bf964)
+![image](https://github.com/vugik/Alipanov/blob/main/3.png)
 
 Значение 0 меняем на любое другое
 
@@ -256,9 +256,9 @@ Cоздаем папки двумя разными способами
 
 Нажимаем run
 
-![image](https://github.com/user-attachments/assets/03954f3d-1782-4658-9475-8d089be587c4)
+![image](https://github.com/vugik/Alipanov/blob/main/2.png)
 
 
 Копируем переменную OILCOINT_metric1 и вставляем в code
 
-![image](https://github.com/user-attachments/assets/8dff93c2-2a70-4a9a-8302-4670f4bd6f44)
+![image](https://github.com/vugik/Alipanov/blob/main/1.png)
