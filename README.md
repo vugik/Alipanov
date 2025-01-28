@@ -1,4 +1,6 @@
 # Установить Linux Oracle на VirtualBox:
+![image](https://github.com/vugik/Alipanov/blob/main/photo_5244857708342011395_x.jpg)
+
 
 ![image](https://github.com/vugik/Alipanov/blob/main/14.png)
 Установить образ Linux
