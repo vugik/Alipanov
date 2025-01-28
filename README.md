@@ -25,7 +25,7 @@
 
      sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo
 
-![image](https://github.com/vugik/Alipanov/blob/main/12.png)
+![image](https://github.com/vugik/Alipanov/blob/main/10.png)
 
 
 Устанавливаем docker
